@@ -16,7 +16,7 @@ Please enter the following clinical parameters:
 # Define all 24 features
 feature_names = [
     'age', 'bp', 'sg', 'al', 'su', 'rbc', 'pc', 'pcc', 'ba',
-    'bgr', 'bu', 'sc', 'sod', 'pot', 'hemo', 'pcv', 'wbcc',
+    'bgr', 'bu', 'sc', 'sod', 'pot', 'hemo', 'pcv', 'wbcc','wc',
     'rbcc', 'htn', 'dm', 'cad', 'appet', 'pe', 'ane'
 ]
 
