@@ -1,10 +1,9 @@
 import streamlit as st
 import numpy as np
-import pickle
+import joblib  # ✅ Replaced pickle with joblib
 
-# Load the trained model
-with open('ckd_model.pkl', 'rb') as file:
-    model = pickle.load(file)
+# Load the trained model using joblib
+model = joblib.load('ckd_model.pkl')
 
 # Title
 st.title("Chronic Kidney Disease (CKD) Prediction App")
